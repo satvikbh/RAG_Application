@@ -46,7 +46,7 @@ CREATE DATABASE ragdb;
 ```
 You may also need to set up a user:
 ```sql
-CREATE USER postgres WITH ENCRYPTED PASSWORD '1111';
+CREATE USER postgres WITH ENCRYPTED PASSWORD 'password';
 ALTER ROLE postgres SET client_encoding TO 'utf8';
 GRANT ALL PRIVILEGES ON DATABASE ragdb TO postgres;
 ```
