@@ -19,8 +19,7 @@ Follow these steps to set up the project on your local machine:
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/yourusername/rag-document-qa.git
-cd rag-document-qa
+git clone https://github.com/satvikbh/RAG_Application
 ```
 
 ### 2️⃣ Set Up PostgreSQL Database
