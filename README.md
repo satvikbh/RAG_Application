@@ -135,6 +135,10 @@ The following API endpoints are available:
 🔹 Implement **chatbot-like conversation**
 
 ---
+##DEMO VIDEO 
+📽️ [Watch Demo Video](https://github.com/satvikbh/RAG_Application/blob/main/RAG_APP.mp4)
+
+
 
 ## 🤝 Contributing
 Want to improve this project? Fork the repo, make your changes, and submit a PR! 🎉
