@@ -168,7 +168,7 @@ def answer_question(query: QueryIn, current_user: User = Depends(get_current_use
         similarities.append(similarity)
     
     most_relevant = docs[np.argmax(similarities)]
-    return {"answer": f"Based on document '{most_relevant.title}': {most_relevant.content[:200]}..."}
+    return {"answer": f"Based on document '{most_relevant.title}': {most_relevant.content}"}
 
 # Toggle document endpoint
 @app.put("/toggle-document/{doc_id}")
